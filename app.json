@@ -81,7 +81,7 @@
       },
       "APP_URL": {
          "description": "Heroku app URL",
-         "required": false,
+         "required": true,
          "value": "https://<appname>.herokuapp.com"
       }
       
