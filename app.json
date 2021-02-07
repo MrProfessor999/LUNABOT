@@ -1,0 +1,89 @@
+{
+      "name": "Sky",
+      "description": "Multipurpose Telegram Bot.",
+      "keywords": [
+         "telegram",
+         "anime",
+         "music",
+         "movie",
+         "sky"
+      ],   
+   "repository": "https://github.com/jerinjohny-ktnm/panda.git",
+   "logo": "https://telegra.ph/file/dd7c2608543eea5afffc6.jpg",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "APIID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "APIHASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },    
+      "DB_URI": {
+         "description": "MongoDB Database URL.",
+         "required": true,
+         "value": ""
+      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "1329457821"
+      },
+      "TMDBAPI": {
+         "description": "tmdb api key",
+         "required": true,
+         "value": ""
+      },
+      "SPT_CLIENT_SECRET": {
+         "description": "Spotify Client Secret",
+         "required": true,
+         "value": ""
+      },
+      "SPT_CLIENT_ID": {
+         "description": "Spotify Client ID",
+         "required": true,
+         "value": ""
+      },
+      "GENIUS": {
+         "description": "xxxxxxx",
+         "required": true,
+         "value": ""
+      },      
+      "WORKERS": {
+         "description": "No of workers",
+         "required": true,
+         "value": "8"
+      },
+      "DEBUG": {
+         "description": "xxxxx",
+         "required": true,
+         "value": "false"
+      },
+      "ARLTOKEN": {
+         "description": "Deezer ARL Token.",
+         "required": true,
+         "value": ""
+      },
+      "APP_URL": {
+         "description": "Heroku app URL",
+         "required": false,
+         "value": "https://<appname>.herokuapp.com"
+      }
+      
+   }
+}
