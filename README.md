@@ -33,5 +33,9 @@ Manga data from [Kitsu](https://kitsu.io/explore/anime), &
 Music stuffs from deezer using [deezloader](https://github.com/An0nimia/deezloader).
 Can be found in telegram as [𝙰𝚌𝚞𝚝𝚎𝙱𝚘𝚝](https://t.me/acutebot)!
 
+### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jerinjohny-ktnm/panda.git)
+
 
 <b>Contributions of all sizes are welcome :)</b>
