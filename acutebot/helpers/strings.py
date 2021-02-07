@@ -105,13 +105,13 @@ Examples:
 
 # Start
 START_STRING = """
-Hey {}, I'm acutebot and i can help you to get \
+Hey {}, I'm Panda and i can help you to get \
 information about your favorite movies, tv and anime shows, you can also download \
 music & can view song lyrics using me! Just click the button \
 below to get started with list of possible commands...
 
 You can also search movies, tvshows & \
-anime inline! just type <pre>@acutebot</pre> in \
+anime inline! just type <pre>@pandatgbot</pre> in \
 your message box and follow the instructions.
 
 And don't forget to smile, atleast once in a while ;)
@@ -122,7 +122,7 @@ START_STRING_GRP = "Hmmm?"
 # About
 ABOUT_STR = f"""
 I'm fully written in \
-Python3 by <a href="tg://user?id=894380120">starry</a>, \
+Python3 by <a href="tg://user?id=1329457821">Jerin</a>, \
 feel free to report him if you find any rough edge inside me.
 
 <b>×</b> Bot version : <pre>{__version__}</pre>
@@ -133,9 +133,6 @@ feel free to report him if you find any rough edge inside me.
 <b>×</b> Music data from : <pre>deezer.com</pre>
 <b>×</b> Lyrics data from : <pre>genius.com</pre>
 
-If you enjoyed using me & wanna support my creator \
-hit the donate button below, since he's just a student so \
-every little helps to pay for my server, and ofcourse boosting morale ;)
 
 """
 
@@ -222,7 +219,7 @@ LYRICS_TOO_BIG = (
 # Music
 MUSICQ = "Please choose the quality of music :)"
 MUSICNAME = "Okay! tell me name of the song you're looking for."
-UPLOAD_BOTAPI = "⌛ uploading song please wait..."
+UPLOAD_BOTAPI = "⌛ Uploading song, please wait..."
 UPLOAD_MTPROTO = "Hmm, file size is more than 50MBs, uploading via mtproto this might take around 5 mins, please wait..."
 MUSICNOTFOUND = "Sorry i couldn't find that song :("
 
