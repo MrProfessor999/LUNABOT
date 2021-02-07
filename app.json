@@ -38,11 +38,6 @@
          "description": "MongoDB Database URL.",
          "required": true,
          "value": ""
-      },      
-      "OWNER_ID": {
-         "description": "Your user ID as an integer.",
-         "required": true,
-         "value": "1329457821"
       },
       "TMDBAPI": {
          "description": "tmdb api key",
