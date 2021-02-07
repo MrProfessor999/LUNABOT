@@ -1,5 +1,5 @@
-![logo](https://telegra.ph/file/8109bf8f6b27ce9b45ff1.jpg)
-<h1 align="center">αcutєвσt</h1>
+![logo](https://telegra.ph/file/dd7c2608543eea5afffc6.jpg)
+<h1 align="center">Panda</h1>
 
 <b>Modular telegram bot to get Movies, Anime, Muisc & much more!</b>
 
