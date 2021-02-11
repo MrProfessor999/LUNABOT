@@ -40,7 +40,7 @@ def moviedata(c_id):
     """
     Parse movie data for the id and return class obj
     """
-    payload = {"api_key": TMDBAPI, "language": "en-US", "append_to_response": "videos"}
+    payload = {"api_key": TMDBAPI, "language": "ar", "append_to_response": "videos"}
 
     data = r.get(f"{base_url}/movie/{c_id}?", params=payload).json()
 
