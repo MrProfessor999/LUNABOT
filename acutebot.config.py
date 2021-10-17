@@ -1,4 +1,4 @@
-"TOKEN = 1963050057:AAF9dyftScwL6iATL1GUp9SWuBDZg9jAKlE
+"TOKEN = 2095511325:AAGu4yvniqTs_vZ5s0YzH39jAqPlqshFLes
 WORKERS = 8
 TMDBAPI = c7745c11
 DB_URI = mongodb+srv://50:50@cluster0.hq9ev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
