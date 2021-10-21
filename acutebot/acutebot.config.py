@@ -12,4 +12,3 @@
     APIHASH = Config.APIHASH
 
 
-=True, workers=WORKERS, defaults=defaults)
