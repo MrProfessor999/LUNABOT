@@ -1,6 +1,6 @@
-    TOKEN = Config.TOKEN
-    WORKERS = Config.WORKERS
-    TMDBAPI = Config.TMDBAPI
+    TOKEN = " "
+    WORKERS = " "
+    TMDBAPI = " "
     DB_URI = Config.DB_URI
     GENIUS = Config.GENIUS
     SPT_CLIENT_SECRET = Config.SPT_CLIENT_SECRET
