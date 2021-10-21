@@ -1,78 +1,26 @@
+import os
+import logging
+from logging.handlers import RotatingFileHandler
 
-import os, sys, logging
-from functools import wraps
-from telegram.ext import Updater, Defaults
-from telegram import ChatAction, ParseMode
+#Bot token @Botfather
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
-ENV = bool(os.environ.get("ENV", False))
-if ENV:
-    TOKEN = os.environ.get("TOKEN")
-    WORKERS = int(os.environ.get("WORKERS", 8))
-    TMDBAPI = os.environ.get("TMDBAPI")
-    DB_URI = os.environ.get("DATABASE_URL")
-    GENIUS = os.environ.get("GENIUS")
-    SPT_CLIENT_SECRET = os.environ.get("SPT_CLIENT_SECRET")
-    SPT_CLIENT_ID = os.environ.get("SPT_CLIENT_ID")
-    DEBUG = bool(os.environ.get("DEBUG", False))
-    ARLTOKEN = os.environ.get("ARL")
-    APP_URL = os.environ.get("APP_URL")
-    APIID = os.environ.get("APIID")
-    APIHASH = os.environ.get("APIHASH")
+#Your API ID from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", ""))
 
+#Your API Hash from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "")
 
-else:
-     import Config
+#Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
-    TOKEN = Config.TOKEN
-    WORKERS = Config.WORKERS
-    TMDBAPI = Config.TMDBAPI
-    DB_URI = Config.DB_URI
-    GENIUS = Config.GENIUS
-    SPT_CLIENT_SECRET = Config.SPT_CLIENT_SECRET
-    SPT_CLIENT_ID = Config.SPT_CLIENT_ID
-    DEBUG = Config.DEBUG
-    ARLTOKEN = Config.ARL
-    APP_URL = Config.APP_URL
-    APIID = Config.APIID
-    APIHASH = Config.APIHASH
+#OWNER ID
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
+#Database 
+DB_URI = os.environ.get("DATABASE_URL", "")
 
-if DEBUG:
-    logging.basicConfig(
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        level=logging.DEBUG,
-    )
-else:
-    logging.basicConfig(
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        level=logging.INFO,
-    )
+#force sub channel id, if you want enable force sub
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
-__version__ = "1.1.3-rev09"
-
-DEV_ID = 1329457821
-LOG = logging.getLogger(__name__)
-
-# Check python version:
-if sys.version_info[0] < 3 or sys.version_info[1] < 6:
-    LOG.info("You MUST need to have python version 3.6! shutting down...")
-    sys.exit(1)
-
-
-def typing(func):
-    """Sends typing action while processing func command."""
-
-    @wraps(func)
-    def command_func(update, context, *args, **kwargs):
-        context.bot.send_chat_action(
-            chat_id=update.effective_chat.id, action=ChatAction.TYPING
-        )
-        return func(update, context, *args, **kwargs)
-
-    return command_func
-
-
-# Use HTML treewide;
-defaults = Defaults(parse_mode=ParseMode.HTML)
-updater = Updater(TOKEN, use_context=True, workers=WORKERS, defaults=defaults)
-dp = updater.dispatcher
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
