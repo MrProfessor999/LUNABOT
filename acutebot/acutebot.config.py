@@ -1,5 +1,5 @@
 TOKEN = "2095511325:AAGu4yvniqTs_vZ5s0YzH39jAqPlqshFLes"
-WORKERS = "8"
+WORKERS = "8
 TMDBAPI = "c7745c11"
 DB_URI = "mongodb+srv://50:50@cluster0.hq9ev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 GENIUS = "false"
