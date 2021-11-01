@@ -69,5 +69,5 @@ def typing(func):
 
 # Use HTML treewide;
 defaults = Defaults(parse_mode=ParseMode.HTML)
-updater = Updater(TOKEN, use_context=True, workers=WORKERS, defaults=defaults)
+updater = Updater(TOKEN, use_context=True, workers=WORKERS + 4, defaults=defaults)
 dp = updater.dispatcher
