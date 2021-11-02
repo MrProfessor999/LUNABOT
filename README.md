@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-<b>Note</b>: <i>This is an old source code, this repository is not being updated anymore!</i>
+<b>Note</b>: <i>This is an old source code, this repository is  updated BY [THIS MAN](https://t.me/N_A_V_I_P_A_V_I)!</i>
 <details>
   <summary>Commands Available: </summary>
 
