@@ -1,14 +1,1 @@
-Python
-python-telegram-bot==12.8
-pyrogram
-requests
-sqlalchemy
-psycopg2
-ujson
-tgcrypto
-pyfy
-lyricsgenius
-deezloader
-mutagen
-speedtest-cli>=2.0.2
-dialects
+
