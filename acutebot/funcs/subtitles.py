@@ -106,5 +106,4 @@ SUBS_HANDLER = ConversationHandler(
 SUBS_CALLBACK_HANDLER = CallbackQueryHandler(subsbutton, pattern=r"subs_")
 
 
-dp.add_handler(SUBS_HANDLER)
-dp.add_handler(SUBS_CALLBACK_HANDLER)
+
