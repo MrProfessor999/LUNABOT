@@ -15,7 +15,6 @@
 
 import threading
 from acutebot.helpers.database import SESSION, BASE
-from sqlalchemy import Column, UnicodeText, Numeric
 
 
 class Favourites(BASE):
