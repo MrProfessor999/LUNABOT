@@ -142,22 +142,6 @@ def back_btn(update, context):
     query.message.edit_caption(caption=stuff.text, reply_markup=stuff.reply_markup)
 
 
-BANNER = r"""
-  ___            ___     ______      ___
- / _ \           | |     | ___ \     | |
-/ /_\ \ ___ _   _| |_ ___| |_/ / ___ | |_
-|  _  |/ __| | | | __/ _ \ ___ \/ _ \| __|
-| | | | (__| |_| | ||  __/ |_/ / (_) | |_
-\_| |_/\___|\__,_|\__\___\____/ \___/ \__|
-
-Is Running 🎶🎶🎵
-"""
-
-def restart(update, context):
-        context.bot.sendMessage(update.effective_chat.id, "Rebooted ✨")
-        Thread(target=stop_and_restart).start()
-
-    
 
     restart_handler = CommandHandler("reboot", restart, filters=Filters.user(DEV_ID))
     start_handler = CommandHandler("start", start)
