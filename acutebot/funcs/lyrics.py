@@ -20,7 +20,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHa
 from telegram.error import BadRequest
 from telegram import ForceReply
 
-from acutebot import dp, typing, LOG, GENIUS
+from acutebot import  typing, LOG, GENIUS
 from acutebot.helpers import strings as st
 
 ARTIST, LYRICS = range(2)
