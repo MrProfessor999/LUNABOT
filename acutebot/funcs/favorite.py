@@ -17,7 +17,7 @@ from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
-from acutebot import dp, typing
+from acutebot import  typing
 import acutebot.helpers.strings as st
 import acutebot.helpers.database.favorites_sql as sql
 
