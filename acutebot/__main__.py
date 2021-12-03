@@ -157,5 +157,4 @@ def back_btn(update, context):
     updater.idle()
 
 
-if __name__ == "__main__":
-    main()
+
