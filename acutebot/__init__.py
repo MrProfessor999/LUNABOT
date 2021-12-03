@@ -47,6 +47,13 @@ __version__ = "1.1.3-rev09"
 DEV_ID = 1296817425
 LOG = logging.getLogger(__name__)
 TOKEN = os.environ.get("TOKEN")
+DB_URI = os.environ.get("DATABASE_URL")
+WORKERS = int(os.environ.get("WORKERS", 8))
+TMDBAPI = os.environ.get("TMDBAPI")
+GENIUS = os.environ.get("GENIUS")
+DEBUG = bool(os.environ.get("DEBUG", False))    
+APIID = os.environ.get("APIID")
+APIHASH = os.environ.get("APIHASH")
 
 # Check python version:
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
