@@ -189,5 +189,3 @@ TV_HANDLER = ConversationHandler(
 TV_BUTTON_HANDLER = CallbackQueryHandler(tv_button, pattern=r"tv_")
 
 
-dp.add_handler(TV_HANDLER)
-dp.add_handler(TV_BUTTON_HANDLER)
