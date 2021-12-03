@@ -165,10 +165,3 @@ BROADCAST_HANDLER = CommandHandler(
     "broadcast", broadcast, filters=Filters.user(DEV_ID)
 )
 
-dp.add_handler(IP_HANDLER)
-dp.add_handler(REDDIT_HANDLER)
-dp.add_handler(STATS_HANDLER)
-dp.add_handler(GREET_HANDLER)
-dp.add_handler(SHELL_HANDLER)
-dp.add_handler(LOG_HANDLER, 1)
-dp.add_handler(BROADCAST_HANDLER)
