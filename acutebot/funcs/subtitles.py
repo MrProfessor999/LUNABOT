@@ -30,7 +30,7 @@ from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 from acutebot import dp, typing
 from acutebot.helpers import strings as st
 
-base_url = "http://subtitle.iamidiotareyoutoo.com"
+base_url = "https://isubtitles.org"
 
 
 @run_async
