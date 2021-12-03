@@ -153,7 +153,10 @@ BANNER = r"""
 Is Running 🎶🎶🎵
 """
 
-
+def main():
+    def stop_and_restart():
+             stop()
+        os.execl(sys.executable, sys.executable, *sys.argv)
 
 
     def restart(update, context):
