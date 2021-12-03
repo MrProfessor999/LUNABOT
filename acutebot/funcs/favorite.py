@@ -71,6 +71,3 @@ FAV_CLEAR_HANDLER = CallbackQueryHandler(rem_favorite, pattern=r"remfav_")
 FAV_ADD_HANDLER = CallbackQueryHandler(add_favorite, pattern=r"addfav_")
 
 
-dp.add_handler(LIST_FAV_HANDLER)
-dp.add_handler(FAV_CLEAR_HANDLER)
-dp.add_handler(FAV_ADD_HANDLER)
