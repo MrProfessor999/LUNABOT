@@ -154,10 +154,7 @@ Is Running 🎶🎶🎵
 """
 
 
-def main():
-    def stop_and_restart():
-        updater.stop()
-        os.execl(sys.executable, sys.executable, *sys.argv)
+
 
     def restart(update, context):
         context.bot.sendMessage(update.effective_chat.id, "Rebooted ✨")
