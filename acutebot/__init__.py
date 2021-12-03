@@ -18,15 +18,15 @@ from functools import wraps
 from telegram.ext import Updater, Defaults
 from telegram import ChatAction, ParseMode
 
-TOKEN = "2095511325:AAGu4yvniqTs_vZ5s0YzH39jAqPlqshFLes"
-WORKERS = "8"
-TMDBAPI = "c7745c11"
-DB_URI = "mongodb+srv://50:50@cluster0.hq9ev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-GENIUS = "false"
-DEBUG = "false"
-APP_URL = "https://acuterobot.herokuapp.com"
-APIID = "7813081"
-APIHASH = "deccd07c38a5ec9fa0fa6e58790fe292"
+    TOKEN = " "
+    WORKERS = " "
+    TMDBAPI = Config.TMDBAPI
+    DB_URI = Config.DB_URI
+    GENIUS = Config.GENIUS    
+    DEBUG = Config.DEBUG    
+    APP_URL = Config.APP_URL
+    APIID = Config.APIID
+    APIHASH = Config.APIHASH
 
 
 if logging.DEBUG:
