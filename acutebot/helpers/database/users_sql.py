@@ -15,9 +15,8 @@
 
 import threading
 
-from sqlalchemy import Column, Integer, UnicodeText
 from acutebot.helpers.database import SESSION, BASE
-from acutebot import dp
+
 
 
 class Users(BASE):
