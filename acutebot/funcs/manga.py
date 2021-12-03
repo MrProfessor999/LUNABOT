@@ -154,5 +154,3 @@ MANGA_HANDLER = ConversationHandler(
 )
 MANGA_BUTTON_HANDLER = CallbackQueryHandler(manga_button, pattern=r"manga_")
 
-dp.add_handler(MANGA_HANDLER)
-dp.add_handler(MANGA_BUTTON_HANDLER)
