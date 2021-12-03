@@ -169,12 +169,7 @@ def main():
     help_handler = CallbackQueryHandler(help_button, pattern=r"help")
     back_btn_handler = CallbackQueryHandler(back_btn, pattern=r"back_btn")
 
-    dp.add_handler(restart_handler)
-    dp.add_handler(start_handler)
-    dp.add_handler(help_funcs_handler)
-    dp.add_handler(help_handler)
-    dp.add_handler(back_btn_handler)
-
+    
     LOG.info("%s", BANNER)
 
     # Start the bot.
