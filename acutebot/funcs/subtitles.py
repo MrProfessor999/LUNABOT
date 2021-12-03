@@ -27,7 +27,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from acutebot import dp, typing
+from acutebot import typing
 from acutebot.helpers import strings as st
 
 base_url = "https://isubtitles.org"
