@@ -26,7 +26,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from acutebot import dp, TMDBAPI, typing
+from acutebot import TMDBAPI, typing
 from acutebot.helpers import strings as st
 from acutebot.helpers.parsedata import byname, byindex, sort_caps, tvruntime
 from acutebot.helpers.keyboard import keyboard
