@@ -186,5 +186,4 @@ MOVIE_HANDLER = ConversationHandler(
 )
 MV_BUTTON_HANDLER = CallbackQueryHandler(movie_button, pattern=r"movie_")
 
-dp.add_handler(MOVIE_HANDLER)
-dp.add_handler(MV_BUTTON_HANDLER)
+
