@@ -20,7 +20,7 @@ from time import sleep
 from acutebot.helpers.database import users_sql as sql
 from acutebot.helpers.database.favorites_sql import fav_count
 import acutebot.helpers.strings as st
-from acutebot import dp, typing, DEV_ID, LOG
+from acutebot import typing, DEV_ID, LOG
 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, TelegramError
 from telegram.ext.dispatcher import run_async
