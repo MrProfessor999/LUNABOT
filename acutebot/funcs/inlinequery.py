@@ -18,11 +18,10 @@ from telegram.ext import InlineQueryHandler
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
-from acutebot import dp, TMDBAPI
+from acutebot import TMDBAPI
 from acutebot.helpers import strings as st
 from acutebot.helpers.parsedata import article
 from acutebot.helpers.keyboard import keyboard
-from acutebot.helpers.database import users_sql as sql
 
 
 pic_url = "https://image.tmdb.org/t/p"
