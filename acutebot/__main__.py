@@ -146,7 +146,7 @@ Luna_bot is running 💫⚡️"""
 
 
 def main():
-    def restart):             
+    def restart():             
         os.execl(sys.executable, sys.executable, *sys.argv)
 
     def restart(update, context):
