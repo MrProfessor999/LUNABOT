@@ -145,7 +145,7 @@ BANNER =r"""
 Luna_bot is running 💫⚡️"""
 
 
-def main():
+def main()(update, context):
     context.bot.sendMessage(update.effective_chat.id, "Rebooted ✨")
 
     restart_handler = CommandHandler("reboot", restart, filters=Filters.user(DEV_ID))
